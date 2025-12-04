@@ -1,0 +1,10 @@
+ffmpeg_python==0.2.0
+Flask==3.1.2
+numpy==2.3.5
+opencv_python==4.10.0.84
+pandas==2.3.3
+scikit_learn==1.7.2
+speechrecognition==3.14.3
+torch==2.4.1+cu124
+transformers==4.51.3
+vosk==0.3.45

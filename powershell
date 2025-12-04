@@ -1,0 +1,10 @@
+
+# run_app.ps1
+# 设置环境变量
+$env:LLM_BACKEND="transformers"
+$env:HF_MODEL_PATH="E:/model/deepseek-r1"
+$env:HF_DEVICE="auto"
+$env:HF_MAX_NEW_TOKENS="256"
+
+# 启动 Flask 服务
+python app.py
